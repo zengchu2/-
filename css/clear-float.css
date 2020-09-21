@@ -1,0 +1,53 @@
+.box1 li {
+  width: 100px;
+  height: 20px;
+  background-color: pink;
+}
+
+.box2 li {
+  width: 100px;
+  height: 20px;
+  background-color: pink;
+  float: left;
+}
+
+.box3 li {
+  width: 100px;
+  height: 20px;
+  background-color: pink;
+  float: left;
+}
+
+.box4 li {
+  width: 100px;
+  height: 20px;
+  background-color: pink;
+  float: left;
+}
+
+.box5 li {
+  width: 100px;
+  height: 20px;
+  background-color: pink;
+  float: left;
+}
+
+.box6 li {
+  width: 100px;
+  height: 20px;
+  background-color: pink;
+  float: left;
+}
+
+.box3 {
+  height: 30px;
+}
+
+.box4 {
+  clear: both;
+}
+
+.box5 {
+  overflow: hidden;
+  background-color: aqua;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="clear-float.css" />
+  </head>
+  <body>
+    <h1>清除浮动影响</h1>
+    <h2>Origin</h2>
+    <div class="box1">
+      <ul>
+        <li>生命壹号1</li>
+        <li>生命壹号2</li>
+        <li>生命壹号3</li>
+        <li>生命壹号4</li>
+      </ul>
+    </div>
+    <div class="box1">
+      <ul>
+        <li>许嵩1</li>
+        <li>许嵩2</li>
+        <li>许嵩3</li>
+        <li>许嵩4</li>
+      </ul>
+    </div>
+    <h2>add float left</h2>
+    <h3>li 脱离了标准文档流， parent无法撑开</h3>
+    <div class="box2">
+      <ul>
+        <li>生命壹号1</li>
+        <li>生命壹号2</li>
+        <li>生命壹号3</li>
+        <li>生命壹号4</li>
+      </ul>
+    </div>
+    <div class="box2">
+      <ul>
+        <li>许嵩1</li>
+        <li>许嵩2</li>
+        <li>许嵩3</li>
+        <li>许嵩4</li>
+      </ul>
+    </div>
+    <br />
+    <h2>Set parent height > children height</h2>
+    <div class="box3">
+      <ul>
+        <li>生命壹号1</li>
+        <li>生命壹号2</li>
+        <li>生命壹号3</li>
+        <li>生命壹号4</li>
+      </ul>
+    </div>
+    <div class="box3">
+      <ul>
+        <li>许嵩1</li>
+        <li>许嵩2</li>
+        <li>许嵩3</li>
+        <li>许嵩4</li>
+      </ul>
+    </div>
+
+    <h2>Use clear both : 不允许该element 左右display float element</h2>
+    <div class="box4">
+      <ul>
+        <li>生命壹号1</li>
+        <li>生命壹号2</li>
+        <li>生命壹号3</li>
+        <li>生命壹号4</li>
+      </ul>
+    </div>
+    <div class="box4">
+      <ul>
+        <li>许嵩1</li>
+        <li>许嵩2</li>
+        <li>许嵩3</li>
+        <li>许嵩4</li>
+      </ul>
+    </div>
+
+    <h2>给parent 加上overflow hidden, ul 自带的margin 使得上面有空白</h2>
+    <div class="box5">
+      <ul>
+        <li>生命壹号1</li>
+        <li>生命壹号2</li>
+        <li>生命壹号3</li>
+        <li>生命壹号4</li>
+      </ul>
+    </div>
+    <div class="box6">
+      <ul>
+        <li>许嵩1</li>
+        <li>许嵩2</li>
+        <li>许嵩3</li>
+        <li>许嵩4</li>
+      </ul>
+    </div>
+    <script></script>
+  </body>
+</html>

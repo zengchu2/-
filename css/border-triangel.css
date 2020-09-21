@@ -1,0 +1,23 @@
+#triangle1 {
+  width: 0px;
+  height: 0px;
+  border: 50px solid transparent;
+  border-top-color: black;
+  border-bottom-color: blue;
+}
+
+#triangle2 {
+  width: 0px;
+  height: 0px;
+  border: 50px solid transparent;
+  border-top-color: black;
+  border-bottom: 100px solid blue;
+}
+
+#triangle2 {
+  width: 0px;
+  height: 0px;
+  border: 50px solid transparent;
+  border-top-color: black;
+  border-bottom: 10px solid blue;
+}
